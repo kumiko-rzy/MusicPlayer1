@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:text="听书"
+        android:textSize="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="70dp">
+        <TableLayout
+            android:layout_height="700dp"
+            android:layout_width="170dp">
+            <Button
+                android:id="@+id/xiaowangzi"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/xiaowangzi"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="小王子"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/fadian"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/fadian"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="法典"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"/>
+
+        </TableLayout>
+        <TableLayout
+            android:layout_width="150dp"
+            android:layout_height="700dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp">
+
+            <Button
+                android:id="@+id/dahei"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/dahei"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="打黑"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/zhanzheng"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/zhanzheng"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="战争与和平"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"/>
+        </TableLayout>
+
+
+
+    </LinearLayout>
+</RelativeLayout>

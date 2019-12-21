@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_height="500dp"
+        android:layout_width="170dp">
+        <Button
+            android:id="@+id/manzu"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="满足"
+            android:textSize="50dp"/>
+        <Button
+            android:id="@+id/chunfeng"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="春风"
+            android:textSize="50dp"/>
+
+    </TableLayout>
+    <TableLayout
+        android:layout_width="150dp"
+        android:layout_height="500dp"
+        android:layout_marginLeft="20dp">
+
+        <Button
+            android:id="@+id/liuguang"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:text="流光"
+            android:textSize="50dp"/>
+        <Button
+            android:id="@+id/nevernever"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:text="never"
+            android:textSize="40dp"/>
+    </TableLayout>
+
+
+</LinearLayout>
